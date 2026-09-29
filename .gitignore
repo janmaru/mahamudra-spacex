@@ -1,0 +1,9 @@
+.venv/
+cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated DSL payloads (regenerated from cache at each run)
+specs/spacex.data.json
+specs/spacex.sync.json

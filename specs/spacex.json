@@ -1,0 +1,143 @@
+{
+  "type": "frame",
+  "title": "SpaceX Launches",
+  "slots": {
+    "header": [
+      {
+        "type": "panel",
+        "title": "Mission",
+        "bind": "mission"
+      }
+    ],
+    "body": [
+      {
+        "type": "stack",
+        "direction": "row",
+        "layout": {
+          "equal_height": true
+        },
+        "responsive": {
+          "sm": "column",
+          "md": "row",
+          "lg": "row"
+        },
+        "children": [
+          {
+            "type": "table",
+            "title": "Launches",
+            "bind": "launches",
+            "layout": {
+              "span": {
+                "sm": 12,
+                "md": 12,
+                "lg": 7
+              },
+              "min_width": 70
+            }
+          },
+          {
+            "type": "panel",
+            "title": "Details",
+            "bind": "details",
+            "layout": {
+              "span": {
+                "sm": 12,
+                "md": 12,
+                "lg": 5
+              },
+              "min_width": 40
+            }
+          }
+        ]
+      },
+      {
+        "type": "stack",
+        "direction": "row",
+        "layout": {
+          "equal_height": true
+        },
+        "responsive": {
+          "sm": "column",
+          "md": "row",
+          "lg": "row"
+        },
+        "children": [
+          {
+            "type": "scatter_2d",
+            "title": "Mission Timeline",
+            "bind": "timeline",
+            "options": {
+              "plane": "xy",
+              "height": 16
+            },
+            "layout": {
+              "span": {
+                "sm": 12,
+                "md": 12,
+                "lg": 7
+              },
+              "min_width": 60
+            },
+            "actions": [
+              {
+                "id": "open_timeline",
+                "label": "open the native mission timeline viewer",
+                "key": "T"
+              }
+            ]
+          },
+          {
+            "type": "panel",
+            "title": "Phases",
+            "bind": "phases",
+            "layout": {
+              "span": {
+                "sm": 12,
+                "md": 12,
+                "lg": 5
+              },
+              "min_width": 40
+            }
+          }
+        ]
+      }
+    ],
+    "bottom": [
+      {
+        "type": "stack",
+        "direction": "row",
+        "responsive": {
+          "sm": "column",
+          "md": "row",
+          "lg": "row"
+        },
+        "children": [
+          {
+            "type": "panel",
+            "title": "Links",
+            "bind": "links",
+            "layout": {
+              "span": {
+                "sm": 12,
+                "md": 8,
+                "lg": 8
+              }
+            }
+          },
+          {
+            "type": "panel",
+            "title": "Update",
+            "bind": "update",
+            "layout": {
+              "span": {
+                "sm": 12,
+                "md": 4,
+                "lg": 4
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

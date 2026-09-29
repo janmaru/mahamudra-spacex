@@ -1,0 +1,892 @@
+{
+  "mission": [
+    {
+      "segments": [
+        {
+          "text": "1 SpaceX launch on 2026-09-28 (UTC)",
+          "style": "bold"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "12:48:59",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+          "style": "bold white"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Launch Successful",
+          "style": "bold green"
+        }
+      ]
+    }
+  ],
+  "launches": [
+    {
+      "T-0 (UTC)": "12:48:59",
+      "Name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+      "Rocket": "Starship V3",
+      "Pad": "Orbital Launch Pad 2 - SpaceX Starbase, TX, USA",
+      "Status": "Launch Successful"
+    }
+  ],
+  "details": [
+    {
+      "text": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+      "style": "bold"
+    },
+    {
+      "segments": [
+        {
+          "text": "Window: ",
+          "style": "dim"
+        },
+        {
+          "text": "12:15:00 - 13:30:00"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "Orbit: ",
+          "style": "dim"
+        },
+        {
+          "text": "Low Earth Orbit"
+        }
+      ]
+    },
+    "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approx…"
+  ],
+  "timeline": {
+    "center": {
+      "label": "T-0",
+      "caption": "Starship | Starlink Group 31-1 (Starship Flight 14) | log time scale",
+      "marker": "▲",
+      "style": "bold yellow"
+    },
+    "tracks": [
+      {
+        "label": "Ship",
+        "caption": "19 phases, T+00:00:00 → T+09:50:30",
+        "marker": "◆",
+        "style": "bold cyan",
+        "history_marker": "◆",
+        "history_style": "cyan",
+        "samples": [
+          {
+            "x": 0.0,
+            "y": 17.05024595732002,
+            "z": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 17.05024595732002,
+            "z": 0.0
+          },
+          {
+            "x": 10.895007802707418,
+            "y": 19.127322650587224,
+            "z": 0.0
+          },
+          {
+            "x": 16.93798121023719,
+            "y": 20.946775272267285,
+            "z": 0.0
+          },
+          {
+            "x": 28.139925011249773,
+            "y": 24.195299482197036,
+            "z": 0.0
+          },
+          {
+            "x": 41.26276392115463,
+            "y": 27.57615636775236,
+            "z": 0.0
+          },
+          {
+            "x": 41.42042430292357,
+            "y": 27.61419232994513,
+            "z": 0.0
+          },
+          {
+            "x": 45.14926259122488,
+            "y": 28.49783896238973,
+            "z": 0.0
+          },
+          {
+            "x": 54.06614495852037,
+            "y": 30.497391321047985,
+            "z": 0.0
+          },
+          {
+            "x": 89.28400674723157,
+            "y": 37.23660837715679,
+            "z": 0.0
+          },
+          {
+            "x": 89.2904705951256,
+            "y": 37.23771554747393,
+            "z": 0.0
+          },
+          {
+            "x": 90.53530236262284,
+            "y": 37.45021627584767,
+            "z": 0.0
+          },
+          {
+            "x": 91.1453516618208,
+            "y": 37.55383570689391,
+            "z": 0.0
+          },
+          {
+            "x": 91.16524209408247,
+            "y": 37.55720847649877,
+            "z": 0.0
+          },
+          {
+            "x": 91.23176540952028,
+            "y": 37.56848605665863,
+            "z": 0.0
+          },
+          {
+            "x": 91.23283664806283,
+            "y": 37.56866762900091,
+            "z": 0.0
+          },
+          {
+            "x": 91.23712105808376,
+            "y": 37.56939381573655,
+            "z": 0.0
+          },
+          {
+            "x": 91.2408692028716,
+            "y": 37.57002909446675,
+            "z": 0.0
+          }
+        ],
+        "current": {
+          "x": 91.24193997902269,
+          "y": 37.57021057959758,
+          "z": 0.0
+        }
+      },
+      {
+        "label": "Countdown",
+        "caption": "11 phases, T-00:50:00 → T-00:00:03",
+        "marker": "■",
+        "style": "bold white",
+        "history_marker": "■",
+        "history_style": "bright_black",
+        "samples": [
+          {
+            "x": -50.32832069744901,
+            "y": 29.67750554032492,
+            "z": 0.0
+          },
+          {
+            "x": -46.002077556489816,
+            "y": 28.695777747278544,
+            "z": 0.0
+          },
+          {
+            "x": -45.4195395266722,
+            "y": 28.560733239656386,
+            "z": 0.0
+          },
+          {
+            "x": -45.11677636123797,
+            "y": 28.490269078634398,
+            "z": 0.0
+          },
+          {
+            "x": -45.10376311071038,
+            "y": 28.487236136374776,
+            "z": 0.0
+          },
+          {
+            "x": -39.23022869144366,
+            "y": 27.08069837641635,
+            "z": 0.0
+          },
+          {
+            "x": -18.35771396718926,
+            "y": 21.374507286120927,
+            "z": 0.0
+          },
+          {
+            "x": -16.26685241267448,
+            "y": 20.74368554392155,
+            "z": 0.0
+          },
+          {
+            "x": -7.488615992707534,
+            "y": 18.17930696644025,
+            "z": 0.0
+          },
+          {
+            "x": -5.207119548627551,
+            "y": 17.642877483602906,
+            "z": 0.0
+          }
+        ],
+        "current": {
+          "x": -1.3325412502377518,
+          "y": 17.092563392724237,
+          "z": 0.0
+        }
+      },
+      {
+        "label": "Booster",
+        "caption": "5 phases, T+00:02:20 → T+00:07:01",
+        "marker": "●",
+        "style": "bold magenta",
+        "history_marker": "●",
+        "history_style": "magenta",
+        "samples": [
+          {
+            "x": 16.829036514426203,
+            "y": -20.91383900258029,
+            "z": 0.0
+          },
+          {
+            "x": 17.205576390280548,
+            "y": -21.02761498157292,
+            "z": 0.0
+          },
+          {
+            "x": 19.137769658491685,
+            "y": -21.6080775228059,
+            "z": 0.0
+          },
+          {
+            "x": 25.93645504600737,
+            "y": -23.582362825103118,
+            "z": 0.0
+          }
+        ],
+        "current": {
+          "x": 26.571613410927494,
+          "y": -23.76044498130709,
+          "z": 0.0
+        }
+      }
+    ]
+  },
+  "phases": [
+    {
+      "text": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+      "style": "bold"
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:50:00",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "GO for Prop Load"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:36:33",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 1 LOX Load"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:35:00",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 1 LNG Load"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:34:13",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 2 LOX Load"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:34:11",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 2 LNG Load"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:21:40",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Engine Chill"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:02:50",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 1 Propellant Load Complete"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:02:10",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 2 Propellant Load Complete"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:00:30",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "GO for Launch"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:00:17",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Flame Deflector Activation"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T-00:00:03",
+          "style": "dim"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Ignition"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:00:00",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Excitement Guaranteed"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:00:00",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Liftoff"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:00:58",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Max-Q"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:02:20",
+          "style": "magenta"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "MECO"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:02:22",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 2 Separation"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:02:27",
+          "style": "magenta"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Booster Boostback Burn Startup"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:03:07",
+          "style": "magenta"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Booster Boostback Burn Shutdown"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:06:35",
+          "style": "magenta"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 1 Landing Burn"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:07:01",
+          "style": "magenta"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Stage 1 Landing"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:08:11",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "SECO-1"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:25:28",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Orbital Insertion Burn Start"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:25:47",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Orbital Insertion Burn End"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+00:34:18",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Payload Deployment Sequence Start"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+01:04:50",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Payload Deployment Sequence End"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+08:52:18",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Deorbit Burn Start"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+08:52:29",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Deorbit Burn End"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+09:28:52",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Atmospheric Entry"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+09:47:30",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Starship Transonic"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+09:48:07",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Starship Subsonic"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+09:50:11",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Starship Landing Burn"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+09:50:13",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Landing Flip"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+09:50:21",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Starship Landing Burn Shutdown"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+09:50:28",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Starship Landing Burn Shutdown"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "T+09:50:30",
+          "style": "cyan"
+        },
+        {
+          "text": "  "
+        },
+        {
+          "text": "Starship Landing"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "segments": [
+        {
+          "text": "The Space Devs: ",
+          "style": "dim"
+        },
+        {
+          "text": "https://www.youtube.com/watch?v=Dun8yJ6qvmA",
+          "style": "underline blue"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "SpaceX: ",
+          "style": "dim"
+        },
+        {
+          "text": "https://x.com/i/broadcasts/1qxvvenMPMQxB",
+          "style": "underline blue"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "Spaceflight Now: ",
+          "style": "dim"
+        },
+        {
+          "text": "https://www.youtube.com/watch?v=FyQU5NdpfXQ",
+          "style": "underline blue"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "NASASpaceflight: ",
+          "style": "dim"
+        },
+        {
+          "text": "https://www.youtube.com/watch?v=9gDxG-pm1Zo",
+          "style": "underline blue"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "Everyday Astronaut: ",
+          "style": "dim"
+        },
+        {
+          "text": "https://www.youtube.com/watch?v=LeKY53pwArw",
+          "style": "underline blue"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "LL2 API: ",
+          "style": "dim"
+        },
+        {
+          "text": "https://ll.thespacedevs.com/2.3.0/launches/7d1afb26-6f9c-429b-9ccf-29012fd1e519/",
+          "style": "dim"
+        }
+      ]
+    }
+  ],
+  "update": [
+    {
+      "segments": [
+        {
+          "text": "Fetched: ",
+          "style": "dim"
+        },
+        {
+          "text": "2026-09-28 21:24:45 UTC"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "Source: ",
+          "style": "dim"
+        },
+        {
+          "text": "launch-library-2"
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "Results: ",
+          "style": "dim"
+        },
+        {
+          "text": "1/1"
+        }
+      ]
+    }
+  ]
+}
