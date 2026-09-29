@@ -51,53 +51,14 @@
         ]
       },
       {
-        "type": "stack",
-        "direction": "row",
-        "layout": {
-          "equal_height": true
-        },
-        "responsive": {
-          "sm": "column",
-          "md": "row",
-          "lg": "row"
-        },
-        "children": [
+        "type": "panel",
+        "title": "Phases",
+        "bind": "phases",
+        "actions": [
           {
-            "type": "scatter_2d",
-            "title": "Mission Timeline",
-            "bind": "timeline",
-            "options": {
-              "plane": "xy",
-              "height": 16
-            },
-            "layout": {
-              "span": {
-                "sm": 12,
-                "md": 12,
-                "lg": 7
-              },
-              "min_width": 60
-            },
-            "actions": [
-              {
-                "id": "open_timeline",
-                "label": "open the native mission timeline viewer",
-                "key": "T"
-              }
-            ]
-          },
-          {
-            "type": "panel",
-            "title": "Phases",
-            "bind": "phases",
-            "layout": {
-              "span": {
-                "sm": 12,
-                "md": 12,
-                "lg": 5
-              },
-              "min_width": 40
-            }
+            "id": "open_timeline",
+            "label": "open the native mission timeline viewer",
+            "key": "T"
           }
         ]
       }

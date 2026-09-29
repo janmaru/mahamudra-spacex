@@ -11,7 +11,7 @@ from datetime import date, datetime, timezone
 from typing import Any
 
 from spacex_launches.fetcher import REFRESH_INTERVAL_SECONDS, SOURCE_NAME
-from spacex_launches.timeline import Phase, extract_phases, phase_items, timeline_payload
+from spacex_launches.timeline import Phase, extract_phases, phase_items
 
 DESCRIPTION_MAX_CHARS = 280
 NO_TIME = "--:--:--"
@@ -39,7 +39,7 @@ def build_payload(
         "mission": _mission_items(launches, day),
         "launches": _launch_records(launches, day),
         "details": _detail_items(launches, day),
-        **_timeline_binds(launches),
+        "phases": _phase_items(launches),
         "links": _link_items(launches),
         "update": _update_items(fetched_at, raw, launches),
     }
@@ -130,15 +130,12 @@ def _detail_items(launches: list[dict[str, Any]], day: date) -> list[Any]:
     return items or [{"text": "No details available", "style": "dim"}]
 
 
-def _timeline_binds(launches: list[dict[str, Any]]) -> dict[str, Any]:
-    """Timeline e fasi del primo lancio del giorno (una sola missione per riga)."""
+def _phase_items(launches: list[dict[str, Any]]) -> list[Any]:
+    """Fasi del primo lancio del giorno (una sola missione nel pannello)."""
     if not launches:
-        empty = "No launches"
-        return {"timeline": timeline_payload(empty, []), "phases": phase_items(empty, [])}
+        return phase_items("No launches", [])
     launch = launches[0]
-    name = _str(launch.get("name"))
-    phases = extract_phases(launch)
-    return {"timeline": timeline_payload(name, phases), "phases": phase_items(name, phases)}
+    return phase_items(_str(launch.get("name")), extract_phases(launch))
 
 
 def _link_items(launches: list[dict[str, Any]]) -> list[Any]:
